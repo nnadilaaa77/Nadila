@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Biodata Saya</H1>
+    <table border="1"> <thead>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Tempat/Tanggal lahir</th>
+            <th>Alamat</th>
+            <th>No.Telepon</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nadila Syofrotin Nisa</td>
+                <td>London, 15-Agustus-2008</td>
+                <td>Begadung</td>
+                <td>081515866043</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Suci Endah Nur Salimah</td>
+                <td>Swiss, 11-Mei-1943</td>
+                <td>Warungotok</td>
+                <td>0895809108050</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rosyidah Luthfiyatul Laylah</td>
+                <td>Amerika, 21-Juli-1999</td>
+                <td>Tanjung</td>
+                <td>083853199048</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yolla Distihany Onerisino</td>
+                <td>Belanda, 21-Desember-1986</td>
+                <td>Rejoso</td>
+                <td>082336452375</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Rista Aya Wiranti</td>
+                <td>Cina, 25-Oktober-2040</td>
+                <td>Sukomoro</td>
+                <td>085791787377</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nadia Hanum Pratiwi</td>
+                <td>Jepang, 21-November-1876</td>
+                <td>Rejoso</td>
+                <td>085184659583</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h1>Formulir Feedback</h1>
+    <form action="/submit-form" method="post"> 
+        <label for="nama">Nama Lengkap:</label><br> 
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda"><br><br> 
+ 
+        <label for="email">Alamat Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="contoh@anomali.com"><br><br> 
+ 
+        <label for="komentar">Komentar/Saran Anda:</label><br> 
+        <textarea id="Komentar" name="Komentar" rows="4" cols="50" placeholder="tulis komentar/saran anda"></textarea><br><br> 
+ 
+        <label for="kepuasan">Apakah Anda Puas Dengan Materi Ini?: </label><br> 
+        <input type="radio" id="Ya" name="kepuasan" value="Ya"> 
+        <label for="Ya">Ya</label><br> 
+        <input type="radio" id="tidak" name="kepuasan" value="tidak"> 
+        <label for="tidak">tidak</label><br><br> 
+ 
+        <label for="topik">Topik yang ingin dipelajari selanjutnya:</label><br> 
+        <input type="checkbox" id="css" name="topik" value="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="js" name="topik" value="JavaScript">
+        <label for="js">JavaScript</label><br>
+        <input type="checkbox" id="php" name="topik" value="PHP">
+        <label for="php">PHP</label><br><br>
+
+        <input type="submit" value="Kirim Feedback">
+    </form>
+</body>
+</html>
